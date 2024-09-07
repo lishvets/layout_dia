@@ -1,0 +1,2 @@
+const e=document.querySelector(".slides"),t=document.querySelector(".slider__button-prev"),n=document.querySelector(".slider__button-next"),l=Array.from(e.querySelectorAll(".slider__img")),r=l.length;let c=0;function o(){l.forEach((e,t)=>{t===c?e.style.display="block":e.style.display="none"})}t.addEventListener("click",function(){c=(c-1+r)%r,o()}),n.addEventListener("click",function(){c=(c+1)%r,o()}),o();
+//# sourceMappingURL=index.335fd466.js.map
